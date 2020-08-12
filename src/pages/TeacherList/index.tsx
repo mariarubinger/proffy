@@ -17,8 +17,8 @@ function TeacherList() {
                     </div>
 
                     <div className="input-block">
-                        <label htmlFor="week day">Dia da semana</label>
-                        <input type="text" id="week day" />
+                        <label htmlFor="week_day">Dia da semana</label>
+                        <input type="text" id="week_day" />
                     </div>
 
                     <div className="input-block">
@@ -31,12 +31,10 @@ function TeacherList() {
             <main>
                <TeacherItem />
                <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
+             
             </main>
         </div>
-    )
+    );
 }
 
 export default TeacherList;
